@@ -1,0 +1,31 @@
+/* Load a base stylesheet before applying main styles */
+@import './base.css'; 
+
+/* Target div id="app" in index.html */
+#app {
+  max-width: 1280px;        /*Limits how wide the app can stretch */
+  margin: 0 auto;           /* Browser auto selects margin, usually centers */
+  padding: 2rem;            /* Box padding */
+  font-weight: normal;      /* Ensures text is not bolded by default */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+html {
+  font-size: 16px; /* default base: 1rem = 16px */
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 17px; /* slightly larger on tablets */
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 18px; /* larger on desktops */
+  }
+}

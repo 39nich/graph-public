@@ -1,0 +1,16 @@
+/* Load a base stylesheet before applying main styles */
+@import './base.css'; 
+
+#app {
+	min-height: 100vh;
+	max-width: 1024px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+

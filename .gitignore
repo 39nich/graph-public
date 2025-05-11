@@ -1,0 +1,21 @@
+# --- Python backend ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.log
+
+# Virtual environments
+backend/venv/
+
+# Django env secrets
+backend/.env
+
+# --- Vue frontend ---
+node_modules/
+dist/
+.vite/
+frontend/.env
+
+# --- General system files ---
+.DS_Store
+Thumbs.db
