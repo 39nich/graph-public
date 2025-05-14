@@ -1,7 +1,8 @@
 # Accessible Graph Reader – README
 
 This project is a full-stack web application designed to improve the accessibility of graphs for users who are blind or visually impaired. It enables users to upload a graph image and receive a multimodal representation of the graph—combining haptic, audio, and textual feedback to support non-visual graph comprehension.
-
+A link to a form to evaluate the application can be found here: 
+https://docs.google.com/forms/d/e/1FAIpQLSf414WoSYMauBotvGdDCVu-N0jf3qBxYIMond2Gg1FoZpdWKA/viewform?usp=sharing
 ## Features
 
 - Graph Upload Interface – Users can upload PNG or JPEG graph images via the homepage.
