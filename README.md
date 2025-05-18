@@ -1,8 +1,14 @@
 # Accessible Graph Reader – README
 
 This project is a full-stack web application designed to improve the accessibility of graphs for users who are blind or visually impaired. It enables users to upload a graph image and receive a multimodal representation of the graph—combining haptic, audio, and textual feedback to support non-visual graph comprehension.
-A link to a form to evaluate the application can be found here: 
+
+## Links
+Test the application: 
+https://graph-frontend-f2sq.onrender.com/
+
+Evaluate your experience: 
 https://docs.google.com/forms/d/e/1FAIpQLSf414WoSYMauBotvGdDCVu-N0jf3qBxYIMond2Gg1FoZpdWKA/viewform?usp=sharing
+
 ## Features
 
 - Graph Upload Interface – Users can upload PNG or JPEG graph images via the homepage.
@@ -22,15 +28,25 @@ https://docs.google.com/forms/d/e/1FAIpQLSf414WoSYMauBotvGdDCVu-N0jf3qBxYIMond2G
 
 ## File Structure Overview
 /frontend
+
 ├── views/
+
 ├── components/
+
 ├── utils/
+
 ├── router/
+
 └── App.vue
 
 /backend
+
 ├── convert/
+
 │ └── gpt_vision.py
+
 ├── configuration/
+
 │ └── urls.py
+
 └── .env
